@@ -1,0 +1,31 @@
+#loading{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+#spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#msgList li{
+    padding:5px;
+    overflow-wrap: break-word;
+}
+
+.messageBox{
+    background-color: #FAFAFA;
+}
+
+.verifiedTrue {
+    background-color: green;
+}
